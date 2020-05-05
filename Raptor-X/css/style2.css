@@ -1,0 +1,113 @@
+/* General CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-size: 16px;
+
+}
+.header {
+    
+    background-image: url("../images/header-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: max-content;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+}
+.header-overlay{
+    background-color: rgba(31, 31, 31, 0.9);
+}
+.logo{
+    margin-top: 50px;
+}
+@media only screen and  (min-width: 1200px){
+.header-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    padding-bottom: 50px;
+}
+.header-text-form{
+    font-weight: 200;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-text h1,h2{
+    font-size: 25px;
+    color: white;
+    font-weight:200 ;
+}
+.header-text h2{
+    margin-top: 5px;
+}
+.header-text p{
+    
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+}
+.form-group{
+    color: white;
+}
+.button{
+    text-align: center;
+}
+.lbut{
+   text-align: center;
+    margin-top: 5px;
+}
+}
+@media only screen and  (max-width: 768px){
+.header-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+.header-text-form{
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-text h1,h2{
+    font-size: 25px;
+    color: white;
+    font-weight:200 ;
+}
+.header-text h2{
+    margin-top: 5px;
+}
+.header-text p{
+    
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+}
+.form-group{
+    color: white;
+}
+.button{
+    text-align: center;
+}
+.lbut{
+   text-align: center;
+    margin-top: 5px;
+}
+}

@@ -1,0 +1,138 @@
+ /*copyright-ben*/
+/*res.for samll dev.*/
+@media only screen and  (max-width: 375px){
+    
+    .logo img{
+        display: inline-block;
+        margin: auto;
+    
+    }
+    
+}
+
+
+/*res.for samll dev. and tab.*/
+@media only screen and  (max-width: 768px){
+    
+    .header-drone{
+        display: none;
+    }
+    .header-text{
+        text-align: center;
+    }
+    
+    .logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ourpic {
+        text-align: center;
+               
+}
+    .snip1566 {
+        max-width: 150px;
+    }
+    .snip1566 p {
+        font-size: 15px;
+    }
+    
+    .scroll-top{
+   
+       margin-bottom: 10px;
+            
+        text-align: end;
+}
+    .copyright{
+        padding-top: 20px;
+       }
+    .scroll-top{
+        margin-top: -30px;
+}
+    .social{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+    .social ul{
+    
+    
+    text-align: center;
+
+}
+    .contact-us, .contact-form, {
+        margin-top: -90px;
+    }
+    
+    .features-inner-wrap{
+        margin-top: -100px;
+    }
+    .left-feature{
+        
+        margin-left: 70px;
+    }
+    .left-feature-icon{
+        text-align: left;
+        right: 40px;
+    }
+    .img-responsive{
+       padding-left: 25px;
+    }
+    
+}
+/*res.for med dev. desktop*/
+
+@media only screen and  (min-width: 992px){
+    .ourpic{
+    padding-left: 200px;
+    margin-left: 80px;
+    
+}
+}
+
+/*res.for largee dev. desktop*/
+
+@media only screen and  (min-width: 1200px){
+    .ourpic{
+    padding-left: 200px;
+    margin-left: 80px;
+    
+}
+    .snip1566 {
+        max-width: 190px;
+    }
+    .snip1566 p {
+        font-size: 20px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    .scroll-top{
+        margin-top: 40px;
+    }
+    .social{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+    .social ul{
+    margin-right: 150px;
+    padding-right: 100px;
+    text-align: right;
+
+}
+    .features-inner-wrap{
+        margin-top: -100px;
+        margin-bottom: 70px;
+    }
+    
+    .left-feature{
+        text-align: right;
+    }
+    .right-feature{
+        
+        text-align: left;
+    }
+    .contact-form{
+        padding-bottom: -45px;
+    }
+    
+}
