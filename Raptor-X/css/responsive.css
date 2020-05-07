@@ -134,5 +134,9 @@
     .contact-form{
         padding-bottom: -45px;
     }
+    .img-responsive{
+        padding-top: 90px;
+        padding-left: 50px;
+    }
     
 }
